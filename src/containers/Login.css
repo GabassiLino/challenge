@@ -1,0 +1,33 @@
+.divLoginMain {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(147, 0, 0, 1) 50%, rgb(206, 206, 206) 50%, rgb(179, 179, 179) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divLoginInputs {
+    height: 60vh;
+    width: 80vw;
+    background-color: gray;
+    border-radius: 2em;
+    box-shadow: 5px 4px 13px 5px rgba(0, 0, 0, 0.92);
+    -webkit-box-shadow: 5px 4px 13px 5px rgba(0, 0, 0, 0.92);
+    -moz-box-shadow: 5px 4px 13px 5px rgba(0, 0, 0, 0.92);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divLoginInputs > div {
+    width: 70%;
+    height: 2em;
+}
+
+.logoLogin {
+    width: 35%;
+}
+
